@@ -1,6 +1,0 @@
-{
-  "devDependencies": {
-    "@noble/hashes": "^1.4.0",
-    "tweetnacl": "^1.0.3"
-  }
-}
