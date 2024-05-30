@@ -1,0 +1,26 @@
+{
+  "name": "sekaiking/sui-login",
+  "description": "Plugin to login using SUI",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "sekaiking",
+      "email": "afaithraf@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "SuiLogin\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "./php-sui-sdk"
+    }
+  ],
+  "require": {
+    "sekaiking/php-sui-sdk": "@dev"
+  }
+}

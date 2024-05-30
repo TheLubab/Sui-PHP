@@ -1,0 +1,22 @@
+{
+  "name": "sekaiking/sui-pay",
+  "description": "Plugin to enable Sui payments",
+  "license": "MIT",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "SuiPay\\": "src/"
+    },
+    "files": [
+      "src/Helper/View.php",
+      "src/Helper/Sui.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "sekaiking",
+      "email": "afaithraf@gmail.com"
+    }
+  ],
+  "require": {}
+}

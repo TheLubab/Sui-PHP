@@ -1,0 +1,31 @@
+.sui-donate-box {
+  width: 300px;
+  padding: 20px;
+}
+
+.sui-donate-box > span {
+  margin-bottom: 18px;
+  display: flex;
+}
+
+.sui-donate-box input {
+  width: calc(100% - 20px) !important;
+}
+
+.sui-donate-box button {
+  width: 100% !important;
+}
+
+.sui-donate-amounts {
+  display: flex;
+  gap: 14px;
+}
+.sui-donate-amounts label {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 13px;
+  font-weight: 600;
+  user-select: none;
+  white-space: nowrap;
+}

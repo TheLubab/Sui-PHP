@@ -1,0 +1,20 @@
+{
+  "name": "sekaiking/php-sui-sdk",
+  "description": "Sui Blockchain SDK (Work in Progress)",
+  "type": "library",
+  "require": {
+    "paragonie/sodium_compat": "v1.x"
+  },
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "autoload.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "sekaiking",
+      "email": "afaithraf@gmail.com"
+    }
+  ]
+}
